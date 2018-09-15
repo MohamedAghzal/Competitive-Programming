@@ -5,8 +5,6 @@
 #include <cstdio>
 
 using namespace std;
-const int N = (int) 1e6 + 5;
-int seen[N];
 
 int main(){
   int n;
