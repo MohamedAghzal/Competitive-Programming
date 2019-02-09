@@ -57,7 +57,6 @@ int main() {
 
     build(1, 1, n);
 
-    string ans = "";
     while(k--){
       char c;
       cin >> c;
