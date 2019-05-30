@@ -4,7 +4,7 @@ using namespace std;
 
 typedef long long ll;
 const int N = 100;
-int dp[N][N], p[N][N];
+int p[N][N];
 string s;
 bool palindrome(int i, int j){
     if(i == j) return 1;
