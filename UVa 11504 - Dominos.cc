@@ -6,7 +6,7 @@ const int N = 100100;
 int seen[N], vis[N], cnt;
 stack <int> S;
 vector <int> g[N], t[N];
-set <int> in_deg[N], scc;
+set <int> scc;
 
 void dfs(int u){
     if(seen[u])
@@ -50,7 +50,6 @@ int main(){
             cin >> u >> v;
             g[u].push_back(v);
             t[v].push_back(u);
-            in_deg[v].insert(u);
         }
 
         for(int i = 1; i <= n; i++){
