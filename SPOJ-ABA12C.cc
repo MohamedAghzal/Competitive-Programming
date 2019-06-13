@@ -5,8 +5,6 @@ using namespace std;
 const int INF = (int) 1e9;
 const int N = 150;
 
-typedef pair <int, int> pii;
-
 int dp[N][N][N];
 int a[N];
 int n, k;
