@@ -23,9 +23,7 @@ int main(){
         }
 
         memset(cnt, 0, sizeof cnt);
-        int l = 1;
-        int r = 2;
-
+        
         int ans = INF;
         for(int i = 1; i <= 3; i++){
             cnt[a[i]]++;
